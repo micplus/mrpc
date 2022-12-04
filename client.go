@@ -5,9 +5,10 @@ import (
 	"errors"
 	"fmt"
 	"log"
-	"mrpc/codec"
 	"net"
 	"sync"
+
+	"github.com/micplus/mrpc/codec"
 )
 
 // net/rpc: 函数能被rpc调用的条件

@@ -5,11 +5,12 @@ import (
 	"errors"
 	"io"
 	"log"
-	"mrpc/codec"
 	"net"
 	"reflect"
 	"strings"
 	"sync"
+
+	"github.com/micplus/mrpc/codec"
 )
 
 // 证明服务器收到的请求是rpc请求，不是则丢弃
